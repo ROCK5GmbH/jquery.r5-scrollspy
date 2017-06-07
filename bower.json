@@ -21,7 +21,7 @@
         "Rock5 Gmbh(http://rock5.de)"
     ],
     "license": "MIT",
-    "homepage": "",
+    "homepage": "https://github.com/ROCK5GmbH/jquery.r5-scrollspy",
     "ignore": [
         "**/.*",
         "node_modules",

@@ -20,5 +20,12 @@
   "dependencies": {
     "jquery": ">=1.7.0 <=3.2.1"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROCK5GmbH/jquery.r5-scrollspy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ROCK5GmbH/jquery.r5-scrollspy/issues"
+  },
+  "homepage": "https://github.com/ROCK5GmbH/jquery.r5-scrollspy#readme"
 }
