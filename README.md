@@ -1,4 +1,4 @@
-# jQuery r5 Scroll Spy
+# jQuery r5-ScrollSpy
  
  A jQuery plugin, that keeps track of what elements currently are on the screen.
  
@@ -11,7 +11,7 @@
     ```
     **Requirement:** jQuery version >=1.7.0 testet up to version 3.2.1-slim
     
- 2. Add a collection to scrollspy
+ 2. Add a collection to r5-ScrollSpy
     ```javascript
     (function($){
         $('.screen').scrollspy(options);
@@ -23,10 +23,14 @@
     You can either embed this in a `<script></script>` tag directly into your HTML, or add this to 
     one of your javascript files.  
     
+## Demo
+  Open the demo example and see what you can do with r5-ScrollSpy 
+  A demo can be seen localy in the `examples/` folder. 
+  
 ## Options
- r5 Scroll Spy comes with a few default values :
+ r5-ScrollSpy comes with a few overwritable options:
  ### scrollElement
- **Default:** `window` - can be `window`, `document` or any `String` css selector.
+ **Default:** `window` - can be `Object` `window`, `document` or any `String` css selector.
  
  This is the element that gets scrolled.  
  
@@ -57,7 +61,7 @@
  
     e.g. the element is in the current viewport for 10% from the bottom
  
- ### distanceBottom:
+ ### distanceBottom
  **Default:** `3` - `Integer`
  
  Describes the unit-less value of *distanceBottomUnit*
@@ -93,5 +97,3 @@
    
   Second parameter`side` is the side where the element scrolled out to (either `bottom` or `top`).
   
-##Demo
-  A demo can be seen in the `examples/` folder.
