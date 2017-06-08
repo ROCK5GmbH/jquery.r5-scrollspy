@@ -24,8 +24,9 @@
     one of your javascript files.  
     
 ## Demo
-  Open the demo example and see what you can do with r5-ScrollSpy 
-  A demo can be seen localy in the `examples/` folder. 
+  Open the [demo example](https://rock5gmbh.github.io/jquery.r5-scrollspy/) and see what you can do with r5-ScrollSpy.
+  
+  A stripped down version is included in the `examples/` folder. 
   
 ## Options
  r5-ScrollSpy comes with a few overwritable options:
