@@ -1,6 +1,6 @@
 {
     "name": "jquery.r5-scrollspy",
-    "description": "A jQuery lightweight plugin that keeps track of the current on-screen elements.",
+    "description": "A lightweight jQuery plugin that keeps track of the current on-screen elements.",
     "main": [
         "js/jquery.r5-scrollspy.js"
     ],
