@@ -1,5 +1,4 @@
 (function($){
-
     var $topNavElements = $('header a');
     $('.screen').scrollspy(
         {
@@ -13,4 +12,22 @@
             }
         }
     );
+
+    var $cycleIcons = $(".cycle-icons i");
+    var $randomIcon =  $cycleIcons.eq(Math.floor(Math.random() * $cycleIcons.length));
+    var $nextIcon = $randomIcon;
+
+    $cycleIcons.hide();
+    $randomIcon.show();
+
+    setInterval(function() {
+        $randomIcon.hide();
+        while($nextIcon === $randomIcon){
+
+            $nextIcon = $cycleIcons.eq(Math.floor(Math.random() * $cycleIcons.length));
+        }
+
+        $randomIcon = $nextIcon;
+        $randomIcon.show();
+    }, 5000);
 })(jQuery);

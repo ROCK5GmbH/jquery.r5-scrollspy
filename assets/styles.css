@@ -18,7 +18,10 @@ a.active{
     color: #fff;
     background: #a00;
 }
-
+em {
+    font-style: normal;
+    color: #d01527;
+}
 header {
     position:fixed;
     z-index:100;
@@ -66,4 +69,38 @@ header nav > *{
 
     100% {
     }
+}
+.material-icons {
+    vertical-align: middle;
+}
+body>footer {
+    background: #3f3f3f;
+    color: #fff;
+    border-top: 5px solid #d01527;
+    padding: 0 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px
+}
+
+body>footer>* {
+    width: 100%;
+    text-align: center
+}
+
+@media (min-width: 600px) {
+    body>footer>* {
+        width:auto;
+        text-align: left
+    }
+}
+
+body>footer a {
+    color: #fff
+}
+
+body>footer a.active,body>footer a:hover {
+    color: #d01527
 }
