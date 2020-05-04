@@ -18,7 +18,7 @@
   "author": "Jannis Betz <jannis.betz@rock5.de>",
   "license": "MIT",
   "dependencies": {
-    "jquery": ">=1.7.0 <=3.2.1"
+    "jquery": ">=1.7.0 <=3.5.1"
   },
   "repository": "git+https://github.com/ROCK5GmbH/jquery.r5-scrollspy.git",
   "bugs": {
