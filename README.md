@@ -6,10 +6,10 @@
  
  1. Include `jquery.r5-scrollspy.js` *after* jQuery at the bottom of your document (before the `</body>`)
     ```html
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
     <script src="/path/to/jquery.r5-scrollspy.js"></script>
     ```
-    **Requirement:** jQuery version >=1.7.0 testet up to version 3.2.1-slim
+    **Requirement:** jQuery version >=1.7.0 testet up to version 3.5.0-slim
     
  2. Add a collection to r5-ScrollSpy
     ```javascript
